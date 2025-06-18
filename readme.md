@@ -34,6 +34,7 @@ Implement a solar system with OpenGL, using the following libraries:
 │       └── GouraudShadingVertexShader.glsl
 ├── CMakeLists.txt
 ├── main.cpp
+├── stb_image.h
 └── README.md                                   # This file
 ```
 
