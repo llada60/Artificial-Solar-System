@@ -497,8 +497,8 @@ void loadShader(GLuint program, GLenum type, const std::string &shaderFilename) 
 
 void initGPUprogram() {
   g_program = glCreateProgram(); // Create a GPU program, i.e., two central shaders of the graphics pipeline
-  loadShader(g_program, GL_VERTEX_SHADER, "Blinn-PhongVertexShader.glsl");
-  loadShader(g_program, GL_FRAGMENT_SHADER, "Blinn-PhongFragmentShader.glsl");
+  loadShader(g_program, GL_VERTEX_SHADER, "./shader/Blinn-Phong/Blinn-PhongVertexShader.glsl");
+  loadShader(g_program, GL_FRAGMENT_SHADER, "./shader/Blinn-Phong/Blinn-PhongFragmentShader.glsl");
   glLinkProgram(g_program); // The main GPU program is ready to be handle streams of polygons
   glUseProgram(g_program);
 
