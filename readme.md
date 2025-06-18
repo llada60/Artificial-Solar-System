@@ -1,5 +1,9 @@
 # OpenGL Programming - a small artificial solar system
 
+[[Result Video]](https://github.com/llada60/Artificial-Solar-System/blob/main/media/result.mp4)
+
+
+
 Implement a beautiful solar system with OpenGL, using the following libraries::
 - **OpenGL**: accessing the graphics processor.
 - **GLM**: interface OpenGL and the window system of the operating system.
